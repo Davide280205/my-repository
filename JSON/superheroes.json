@@ -52,8 +52,10 @@
 
   ]
 
-  {
-  "footer" : "Davide",
+    {
+  "nomeProject" : "Super Heroes",
+  "name" : "Davide",
+  "update" : "16/05/2024"
 }
 
 }
