@@ -4,6 +4,9 @@
   "formed" : 2016,
   "secretBase" : "Super tower",
   "active" : true,
+  "nomeProject" : "Super Heroes",
+  "name" : "Davide",
+  "update" : "16/05/2024"
 
 
   "members" : [
@@ -51,11 +54,5 @@
 
 
   ]
-
-    {
-  "nomeProject" : "Super Heroes",
-  "name" : "Davide",
-  "update" : "16/05/2024"
-}
 
 }
