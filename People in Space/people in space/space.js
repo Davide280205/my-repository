@@ -32,19 +32,13 @@ function populatePerson(obj) {
 
     const members = obj.people;
 
-    // significa che per ogni eroe (const hero) che si trova nella variabile heroes crea una variabile
-
     for (const person of members) {
-
-        // creiamo elementi HTML
 
         const myArticle = document.createElement('article');
 
         const myH2 = document.createElement('h2');
 
         const myPara1 = document.createElement('p');
-
-        // popolo gli elementi
 
         myH2.textContent = person.name;
 
@@ -57,8 +51,6 @@ function populatePerson(obj) {
 
     }
 }
-
-// fare simile a quello sopra
 
     function populateNumber(obj){
 
