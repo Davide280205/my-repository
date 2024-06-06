@@ -1,0 +1,4 @@
+1. ogni riga è un oggetto
+2. dati da prendere per ogni card:
+nome, sesso, età, luogo di partenza, in che classe viaggiava, 
+soppravissuto (si o no).

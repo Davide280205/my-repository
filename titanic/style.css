@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 241, 233);
+}
+
+section{
+    margin-inline: 5%;
+}
+
+article{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: rgb(207, 207, 140, 0.425);
+}
+
+
+div p{
+    margin: 2%;
+}
+
+.link_home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid blue;
+    background-color: rgb(151, 216, 194);
+    font-size: calc(15px + 0.3vw);
+    text-align: center;
+    width: auto;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.link_home a{
+    color: black;
+    text-decoration: none;
+}
+
+.link_home a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-size: calc(35px + 1vw);
+    margin: 0;
+    background: linear-gradient(blue,black);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.introduzione{
+    margin: 0;
+}
+
+.introduzione p{
+    margin-inline: 1%;
+    font-size: calc(12px + 0.3vw);
+}
+
+.introduzione h2{
+    font-size: calc(20px + 1vw);
+    color: green;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    width: 50%;
+    margin-inline: 25%;
+    text-align: center;
+    font-size: calc(11px + 0.3vw);
+    background-color: rgb(207, 207, 140, 0.425);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.link a{
+    color: black;
+    font-size: calc(13px + 0.3vw);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.foto{
+    margin-inline: 5%;
+    margin-block: 5%;
+}
+
+img{
+    display: inline-flex;
+    margin: 0;
+    width: 20%;
+}
